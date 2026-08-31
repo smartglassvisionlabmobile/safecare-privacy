@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>안심케어 개인정보 처리방침</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --text: #1f2937;
+    --muted: #6b7280;
+    --line: #e5e7eb;
+    --accent: #e11d48;
+    --note-bg: #fff1f2;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #111114;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --line: #2c2c31;
+      --accent: #fb6f8b;
+      --note-bg: #2a1119;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    line-height: 1.75;
+    font-size: 16px;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 20px 80px; }
+  h1 { font-size: 26px; margin: 0 0 6px; letter-spacing: -0.02em; }
+  h2 {
+    font-size: 18px;
+    margin: 40px 0 10px;
+    padding-top: 20px;
+    border-top: 1px solid var(--line);
+    letter-spacing: -0.01em;
+  }
+  h2:first-of-type { border-top: none; padding-top: 0; }
+  p, li { color: var(--text); }
+  .meta { color: var(--muted); font-size: 14px; margin: 0 0 32px; }
+  ul { padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 15px; }
+  th, td { border: 1px solid var(--line); padding: 10px 12px; text-align: left; vertical-align: top; }
+  th { background: rgba(128,128,128,0.08); font-weight: 600; }
+  .note {
+    background: var(--note-bg);
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin: 18px 0;
+    font-size: 15px;
+  }
+  .note strong { color: var(--accent); }
+  footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+  .scroll { overflow-x: auto; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>안심케어 개인정보 처리방침</h1>
+<p class="meta">시행일: 2026년 8월 31일</p>
+
+<p>안심케어(SafeCare, 이하 "앱")는 혼자 지내는 가족의 활동이 오래 없을 때 이를 다른 가족에게 알리는 것을 목적으로 하는 앱입니다. 이 목적에 필요한 최소한의 정보만 처리하며, 그 내용을 아래와 같이 알려 드립니다.</p>
+
+<div class="note">
+  <strong>먼저 알려 드립니다.</strong> 앱은 <strong>위치 좌표를 저장하거나 전송하지 않습니다.</strong> 위치 권한은 "이동이 있었다는 사실과 그 시각"만 확인하는 데 쓰이며, 어디에 있었는지는 기록되지 않습니다.
+</div>
+
+<h2>1. 처리하는 정보</h2>
+<div class="scroll">
+<table>
+  <thead>
+    <tr><th>구분</th><th>항목</th><th>이용 목적</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>활동 정보</td>
+      <td>걸음 수, 기기 움직임 감지 시각, 마지막 앱 사용 시각</td>
+      <td>장시간 활동이 없는지 판단</td>
+    </tr>
+    <tr>
+      <td>위치</td>
+      <td>위치가 바뀐 <em>시각</em> (좌표는 저장·전송하지 않음)</td>
+      <td>이동 여부 확인</td>
+    </tr>
+    <tr>
+      <td>기기 상태</td>
+      <td>배터리 잔량, 충전 여부</td>
+      <td>충전 중 오탐 방지, 감시 중단 가능성 판단</td>
+    </tr>
+    <tr>
+      <td>이용자 입력</td>
+      <td>이름(별칭 가능), 전화번호(선택)</td>
+      <td>가족 화면 표시, 가족이 전화를 걸 때 사용</td>
+    </tr>
+    <tr>
+      <td>식별자</td>
+      <td>익명 계정 식별자, 푸시 알림 토큰</td>
+      <td>가족 간 연결, 알림 전송</td>
+    </tr>
+    <tr>
+      <td>판정 기록</td>
+      <td>위험도 점수와 그 산출 근거, 알림 발송 이력</td>
+      <td>알림이 왜 갔는지 확인, 오탐 개선</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<p>앱은 <strong>회원가입을 요구하지 않습니다.</strong> 이메일, 비밀번호, 주민등록번호, 결제 정보는 수집하지 않으며, 익명 계정으로만 동작합니다.</p>
+
+<h2>2. 정보를 보는 사람</h2>
+<ul>
+  <li>대상자(보호받는 분)의 활동 정보는 <strong>대상자가 발급한 6자리 코드를 입력해 연결된 가족</strong>만 볼 수 있습니다.</li>
+  <li>연결 코드는 발급 후 24시간이 지나면 사용할 수 없습니다.</li>
+  <li>대상자는 앱 설정에서 연결된 가족 목록을 확인하고, 언제든지 개별 연결을 끊을 수 있습니다.</li>
+</ul>
+
+<h2>3. 보관 기간</h2>
+<ul>
+  <li>활동 기록·판정 이력은 <strong>기기 안에</strong> 저장되며, 판정 이력은 최근 14일치만 남고 오래된 것은 자동으로 지워집니다.</li>
+  <li>가족에게 보여 주기 위한 최신 상태는 서버에 저장되며, 새 상태로 계속 덮어씁니다.</li>
+  <li>이용자가 앱에서 삭제를 요청하거나 앱을 삭제하면 해당 정보는 파기됩니다.</li>
+</ul>
+
+<h2>4. 삭제 방법</h2>
+<p>앱 <strong>설정 &gt; 기록 삭제 &gt; 모든 기록 삭제</strong>를 누르면 이 휴대폰에 저장된 기록과 서버에 올라간 정보, 그리고 익명 계정까지 모두 삭제되고 첫 실행 상태로 돌아갑니다. 삭제된 정보는 복구할 수 없습니다.</p>
+
+<h2>5. 처리 위탁</h2>
+<p>앱은 상태 전달과 알림 발송을 위해 아래 서비스를 이용합니다.</p>
+<div class="scroll">
+<table>
+  <thead><tr><th>수탁자</th><th>위탁 업무</th><th>보관 위치</th></tr></thead>
+  <tbody>
+    <tr>
+      <td>Google LLC (Firebase)</td>
+      <td>익명 인증, 실시간 데이터베이스, 푸시 알림 전송</td>
+      <td>싱가포르</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<p>이 외의 제3자에게 정보를 제공하거나 판매하지 않으며, 광고·마케팅 목적으로 이용하지 않습니다.</p>
+
+<h2>6. 권한 안내</h2>
+<div class="scroll">
+<table>
+  <thead><tr><th>권한</th><th>필수 여부</th><th>쓰임</th></tr></thead>
+  <tbody>
+    <tr><td>동작 및 피트니스</td><td>필수</td><td>걸음 수와 움직임 확인</td></tr>
+    <tr><td>위치 — 항상 허용</td><td>선택</td><td>앱을 열지 않아도 이동 여부를 확인. 허용하지 않으면 감지 정확도가 떨어지며, 앱은 그 사실을 화면에 표시합니다.</td></tr>
+    <tr><td>알림</td><td>필수</td><td>본인 확인 요청과 가족 알림</td></tr>
+  </tbody>
+</table>
+</div>
+<p>권한은 iOS 설정에서 언제든지 철회할 수 있습니다.</p>
+
+<h2>7. 이용자의 권리</h2>
+<p>이용자는 언제든지 자신의 정보 열람·정정·삭제·처리 정지를 요구할 수 있습니다. 앱 안에서 직접 할 수 있으며, 아래 연락처로 요청하셔도 됩니다.</p>
+
+<h2>8. 안전성 확보 조치</h2>
+<ul>
+  <li>서버 데이터는 접근 규칙으로 보호되며, 본인과 연결된 가족 외에는 읽을 수 없습니다.</li>
+  <li>전송 구간은 암호화됩니다.</li>
+  <li>수집 항목을 목적에 필요한 최소로 제한하고, 위치 좌표처럼 목적에 불필요한 정보는 아예 저장하지 않습니다.</li>
+</ul>
+
+<h2>9. 이 앱이 할 수 없는 일</h2>
+<div class="note">
+  안심케어는 <strong>의료기기가 아니며 응급 구조 서비스가 아닙니다.</strong> 휴대폰의 센서로 "활동이 없다"는 사실만 알 수 있을 뿐, 쓰러졌는지 휴대폰을 두고 나갔는지는 구별하지 못합니다. 응급 상황에서는 119에 신고해 주십시오.
+</div>
+
+<h2>10. 문의처</h2>
+<p>
+  개인정보 보호책임자: 채동주<br>
+  이메일: <a href="mailto:smilemedical.mobile@gmail.com">smilemedical.mobile@gmail.com</a>
+</p>
+
+<h2>11. 방침 변경</h2>
+<p>이 방침이 바뀌면 변경 내용과 시행일을 이 페이지에 게시합니다.</p>
+
+<footer>
+  안심케어 (SafeCare) · 최종 수정 2026년 8월 31일
+</footer>
+
+</main>
+</body>
+</html>
